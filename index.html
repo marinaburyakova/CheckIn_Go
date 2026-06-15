@@ -7,21 +7,19 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
 
-    <!-- Title -->
-    <title>
-      CheckIn Go | Book Hotels Instantly - Real-time Hotel Booking System
-    </title>
+    <!-- Title (оптимальная длина 50-60 символов) -->
+    <title>CheckIn Go - Book Hotels Instantly | Hotel Booking System</title>
 
-    <!-- Description -->
+    <!-- Description (оптимальная длина 150-160 символов) -->
     <meta
       name="description"
-      content="CheckIn Go - The ultimate hotel booking platform. Book luxury hotels, resorts, and vacation rentals worldwide with instant confirmation, real-time availability, and best price guarantee."
+      content="CheckIn Go - Book luxury hotels, resorts, and vacation rentals worldwide. Instant confirmation, best price guarantee, and 24/7 customer support. Find your perfect stay today!"
     />
 
-    <!-- Keywords -->
+    <!-- Keywords (не более 10-15 ключевых слов) -->
     <meta
       name="keywords"
-      content="hotel booking, hotel reservation, luxury hotels, travel, accommodation, vacation rentals, book hotels online, best hotel deals, CheckIn Go"
+      content="hotel booking, luxury hotels, vacation rentals, travel, accommodation, best hotel deals"
     />
 
     <!-- Author -->
@@ -33,19 +31,19 @@
     <!-- Robots -->
     <meta
       name="robots"
-      content="index, follow"
+      content="index, follow, max-snippet:-1, max-image-preview:large"
+    />
+
+    <!-- Canonical URL (ВАЖНО для SEO) -->
+    <link
+      rel="canonical"
+      href="https://checkingo.com/"
     />
 
     <!-- Language -->
     <meta
       name="language"
       content="English"
-    />
-
-    <!-- Revisit after -->
-    <meta
-      name="revisit-after"
-      content="7 days"
     />
 
     <!-- Open Graph / Facebook -->
@@ -63,11 +61,19 @@
     />
     <meta
       property="og:description"
-      content="Book luxury hotels, resorts, and vacation rentals worldwide. Instant confirmation, best price guarantee, and 24/7 customer support."
+      content="Book luxury hotels, resorts, and vacation rentals worldwide. Instant confirmation and best price guarantee."
     />
     <meta
       property="og:image"
       content="https://checkingo.com/og-image.jpg"
+    />
+    <meta
+      property="og:image:width"
+      content="1200"
+    />
+    <meta
+      property="og:image:height"
+      content="630"
     />
     <meta
       property="og:site_name"
@@ -78,28 +84,27 @@
       content="en_US"
     />
 
-    <!-- Twitter -->
+    <!-- Twitter Cards -->
     <meta
-      property="twitter:card"
+      name="twitter:card"
       content="summary_large_image"
     />
     <meta
-      property="twitter:url"
+      name="twitter:url"
       content="https://checkingo.com/"
     />
     <meta
-      property="twitter:title"
+      name="twitter:title"
       content="CheckIn Go - Hotel Booking System"
     />
     <meta
-      property="twitter:description"
-      content="Book luxury hotels, resorts, and vacation rentals worldwide. Instant confirmation, best price guarantee, and 24/7 customer support."
+      name="twitter:description"
+      content="Book luxury hotels, resorts, and vacation rentals worldwide. Instant confirmation and best price guarantee."
     />
     <meta
-      property="twitter:image"
+      name="twitter:image"
       content="https://checkingo.com/twitter-image.jpg"
     />
-
 
     <!-- Theme Color -->
     <meta
@@ -129,25 +134,129 @@
       content="telephone=no"
     />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/svg+xml"
       href="./favicon.svg"
     />
-    <!-- Font Awesome -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png"
+    />
+
+    <!-- Preconnect для улучшения производительности -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com"
+    />
+
+    <!-- Preload критических ресурсов -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Асинхронная загрузка CSS (не блокирует рендеринг) -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      media="print"
+      onload="this.media = 'all'"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      media="print"
+      onload="this.media = 'all'"
     />
-    <script type="module" crossorigin src="./assets/index-bAUepPQ5.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D_UqjdUC.css">
+
+    <!-- Fallback для старых браузеров -->
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      />
+    </noscript>
+
+    <!-- Критический CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      .loading-spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40px;
+        height: 40px;
+        border: 3px solid #e2e8f0;
+        border-top-color: #3b82f6;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+      /* Скрываем спиннер после загрузки */
+      body.loaded .loading-spinner {
+        display: none;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CET_ByYn.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-Cyuzqnbw.js">
+    <link rel="modulepreload" crossorigin href="./assets/framer-B8hZlCEG.js">
+    <link rel="modulepreload" crossorigin href="./assets/react-vendor-dYV4j5Ny.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-GwRw-wdV.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading-spinner"></div>
+    </div>
   </body>
 </html>
